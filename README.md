@@ -18,3 +18,4 @@ MIT License
 
 # Screenshot
 
+!["Password Generator Screenshot"](images/Password-Generator-Image.png)
