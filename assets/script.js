@@ -1,8 +1,11 @@
 // Assignment Code
-var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-var number = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
-var symbol = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")"]
+
+var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+var number = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
+var symbol = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")"];
+
+// Criteria for the password
 
 var criteria = {
   passwordLength: 0,
@@ -10,9 +13,13 @@ var criteria = {
   upperCase: true,
   number: true,
   symbol: true,
-}
+};
+
+// Button to generate password
 
 var generateBtn = document.querySelector("#generate");
+
+// Function to combine the array for the criteria
 
 var generatePassword = function() {
     var passwordArray = [];
@@ -38,7 +45,6 @@ var generatePassword = function() {
   return finalPassword.join("")
 
 }
-
 
 
 // Write password to the #password input
