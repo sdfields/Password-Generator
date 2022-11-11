@@ -11,7 +11,7 @@ To use the password generator select the red "Generate Password" at the bottom o
 
 # Links
 GitHub: https://github.com/sdfields/Password-Generator  
-URL: 
+URL: https://sdfields.github.io/Password-Generator/  
 
 # License
 MIT License
